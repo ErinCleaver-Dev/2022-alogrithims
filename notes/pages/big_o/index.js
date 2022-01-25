@@ -97,12 +97,12 @@ export default function Big_O() {
             </li>
           </div>
           <h3 className={styles.subSectionTitle}>
-            O(1)
+            O(1) - Constant Time
           </h3>
           <div className={styles.notesContainer}>
             <ul>
               <li>
-                
+                It will always take the same amount of time to perform the function
               </li>
             </ul>
           </div>
