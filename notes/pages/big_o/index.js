@@ -97,7 +97,10 @@ export default function Big_O() {
           <div className={styles.notesContainer}>
             <ul>
               <li>
-                
+                Javascript has a tool for testing code
+              </li>
+              <li>
+                To test the nemo app type in {'let t0 = performance.now();'}
               </li>
             </ul>
           </div>
