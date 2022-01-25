@@ -49,47 +49,6 @@ export default function Big_O() {
                 Scalable:  This means the code can allow for an application to be salable and the limit as to how large the code can be expanded.  
               </li>
             </ul>
-            <div className={styles.codeExampleContainer}>
-              <h3  className={styles.subSectionTitle}>
-                SvelteDodgerbluePrediction example 
-              </h3>
-              <ul>
-                <li>{`const nemo = ['nemo'];`}</li>
-                <br/>
-                <li>{`// a function to findNemo in an array`}</li>
-                <br/>
-                <li>
-                  {`function findNemo(array) {`}
-                </li>
-                  <ul>
-                    <li>
-                    // used a for loop to find nemo
-                    </li>
-                    <li>
-                      {`for (let i = 0; i < array.length; i++) {`}
-                    </li>
-                    <ul>
-                      <li>
-                        {"if(array[i] === 'nemo') {"}
-                      </li>
-                      <ul>
-                        <li>
-                          {"console.log('Found Nemo!');"}
-                        </li>
-                      </ul>
-                      <li>
-                        {"}"}
-                      </li>
-                    </ul>
-                    <li>
-                      {"}"}
-                    </li>
-                  </ul>
-                  <li>
-                    {"findNemo(nemo)"}
-                  </li>
-              </ul>
-            </div>
           </div>
           <h3 className={styles.subSectionTitle}>
             Big O and Scalability
@@ -102,6 +61,10 @@ export default function Big_O() {
               <li>
                 To test the nemo app type in {'let t0 = performance.now();'}
               </li>
+              <li>
+                To do it in node.js you need to add a require {`const { performance} =require('perf_hooks');`}
+              </li>
+
             </ul>
           </div>
         </div>

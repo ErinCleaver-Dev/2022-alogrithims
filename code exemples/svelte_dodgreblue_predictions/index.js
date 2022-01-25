@@ -4,6 +4,9 @@ const {
   } = require('perf_hooks');
 // a function to findNemo in an array
 
+
+
+
 function findNemo(array) {
     // used a for loop to find nemo
     let t0 = performance.now();
