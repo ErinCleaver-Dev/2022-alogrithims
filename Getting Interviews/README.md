@@ -19,4 +19,15 @@
     *  Build Websites
     *  1 to 2 Big Projects 
     *  Blog
-    
+*  Remote Jobs:
+    *  https://designmodo.com/jobs/
+    *  https://www.remotelist.pw/
+    *  https://weworkremotely.com/
+    *  https://remoteok.io/
+
+    *  HackerNews Who is Hiring (You will need to search for most recent month)
+    *  AngelList
+
+*  When to start applying for work
+    *  Assessing readiness is related to calculating the actual value and salary of a developer, that is tough to do.
+    *  
