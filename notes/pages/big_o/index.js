@@ -64,7 +64,24 @@ export default function Big_O() {
               <li>
                 To do it in node.js you need to add a require {`const { performance} =require('perf_hooks');`}
               </li>
-
+              <li>
+                As the input grows the process becomes slower and slower.  The run time insreases.  It depends on how powerfull the computer is.  
+              </li>
+              <li>
+                The code will often be on a remote server with different hardware.  How to mesure in terms of efficency what is good code.  
+              </li>
+              <li>
+                Big O Notion is the language that is used to determine how quickly the code will run.  
+              </li>
+              <li>
+                As input grows larger how much dose the application slow down.  
+              </li>
+              <li>
+                The Slower that an application slows down the better it is.
+              </li>
+              <li>
+                Big_O is concern with how many steps their are in a function
+              </li>
             </ul>
           </div>
         </div>
