@@ -84,6 +84,28 @@ export default function Big_O() {
               </li>
             </ul>
           </div>
+          <h3 className={styles.subSectionTitle}>
+            O(n) - Linear Time
+          </h3>
+          <div className={styles.notesContainer}>
+            <li>The for loop has a big 0 notation of 0(n) --> Linear Time</li>
+            <li>
+              If we have one element it will compress 1 item
+            </li>
+            <li>
+              If you have mulitple elements you would have to run multiple items to compress the items.  
+            </li>
+          </div>
+          <h3 className={styles.subSectionTitle}>
+            O(1)
+          </h3>
+          <div className={styles.notesContainer}>
+            <ul>
+              <li>
+                
+              </li>
+            </ul>
+          </div>
         </div>
       </main>
     </div>

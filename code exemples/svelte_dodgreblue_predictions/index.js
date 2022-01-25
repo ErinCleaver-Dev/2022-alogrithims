@@ -14,6 +14,7 @@ const testing100000 = new Array(100000).fill('nemo');
 
 function findNemo(array, string) {
     // used a for loop to find nemo
+    // the for loop has a big 0 notation of 0(n) or Linear Time
     for (let i = 0; i < array.length; i++) {
         if(array[i] === 'nemo') {
            console.log('Found Nemo!');
