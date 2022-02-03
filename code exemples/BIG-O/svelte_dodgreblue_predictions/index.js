@@ -27,3 +27,22 @@ function findNemo(array, string) {
         }
     }
 }
+
+const findNemo2 = (array) => {
+    array.forEach( item => {
+        if(item === 'nemo') {
+            console.log('Found Nemo!');
+        }
+    })
+}
+console.log("Find Nemo 2")
+findNemo2(everyone)
+const findNemo3 = (array) => {
+    for (let item of array) {
+        if(item === 'nemo') {
+            console.log('Found Nemo!');
+        }
+    }
+}
+console.log("Find Nemo 3")
+findNemo3(everyone)

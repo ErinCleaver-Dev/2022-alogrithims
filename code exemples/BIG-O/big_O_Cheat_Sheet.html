@@ -1,0 +1,36 @@
+<h1>#Big O Cheat Sheet:<h1>
+<h3>-Big Os-</h3>
+<ul>
+<li>O(1) Constant- no loops</li>
+<li>O(log N) Logarithmic- usually searching algorithms have log n if they are sorted (Binary Search)</li>
+<li>O(n) Linear- for loops, while loops through n items</li>
+<li>O(n log(n)) Log Liniear- usually sorting operations</li>
+<li>O(n^2) Quadratic- every element in a collection needs to be compared to ever other element. Two
+nested loops</li>
+<li>O(2^n) Exponential- recursive algorithms that solves a problem of size N</li>
+<li>O(n!) Factorial- you are adding a loop for every element</li>
+<li>Iterating through half a collection is still O(n)</li>
+<li>Two separate collections: O(a * b)</li>
+</ul>
+<h3>-What can cause time in a function?-</h3>
+<ul>
+<li>Operations (+, -, *, /)</li>
+<li>Comparisons (<, >, ==)</li>
+<li>Looping (for, while)</li>
+<li>Outside Function call (function())</li>
+</li>
+<h3>-Rule Book-</h3>
+<ol>
+<li>Rule 1: Always worst Case</li>
+<li>Rule 2: Remove Constants</li>
+<li>Rule 3: Different inputs should have different variables. O(a+b). A and B arrays nested would be
+O(a*b)
+<p>+ for steps in order</p>
+<p>* for nested steps</p> </li>
+<li>Rule 4: Drop Non-dominant terms</li>
+</ol>
+<h3>-What causes Space complexity?-</h3>
+<li>Variables</li>
+<li>Data Structures</li>
+<li>Function Call</li>
+<li>Allocations</li>
