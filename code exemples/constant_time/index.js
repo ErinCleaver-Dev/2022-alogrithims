@@ -14,8 +14,11 @@ compressFirstBox(boxes);
 // function to get the first two items in the array.
 
 function logFirstTwoBoxes(boxes) {
-    console.log(boxes[0])
-    console.log(boxes[1])
+    console.log(boxes[0]) // 0(1)
+    console.log(boxes[1]) // 0(1)
 
 }
-console.log(FirstTwoBoxes(boxes))
+console.log(FirstTwoBoxes(boxes)) // running 0(2)
+// This is still a linear function because the time should not change and will still be a flat line.
+// This is considered constant time since the amount of time should no change.  
+// 0(1) is predictable and considered exelent.  
