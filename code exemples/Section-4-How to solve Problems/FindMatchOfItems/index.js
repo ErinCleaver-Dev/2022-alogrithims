@@ -1,5 +1,5 @@
 // Given 2 arrays, create a function that let's a user know (true /false) wather these two arrays contain any common items.  
-
+// https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/learn/lecture/12441334#questions
 
 //Example 1
 const letterArray1 = ['a', 'b', 'c', 'x'];
