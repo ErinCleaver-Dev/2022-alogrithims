@@ -1,10 +1,10 @@
 Interviews and How to Solve problems 
 
 *  Be able to solve problems for a company
-*  Not about the soultion, its is about knowing Tradeoffs 
+*  Not about the solution, its is about knowing Tradeoffs 
 *  Need a deep understanding and know how to explain it
 
-What are compays looking for
+What are company looking for
   *  Analytic skills
   *  Coding Skills 
   *  Techincal Skills 
