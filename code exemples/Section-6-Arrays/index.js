@@ -1,33 +1,58 @@
-const strings = ['a', 'b', 'c', 'd'];
-// 4, 32 bit system 4 * 4 = 16 bytes of storage.  
+//refernce types
 
-// Grab the thrid item on memory
-strings[2]
+var object1 = { value: 10};
+var object2 = object1;
+var object3 = { value: 10};
 
-// push used to add something to the end of the array.
-// the push operation is a Big O notation of O(1)
-strings.push('e') 
+object.value = 15;
 
-// pop remove something from the end of the array.
-// the pop operation is a Big O notation of O(1)
-strings.pop(); 
-strings.pop();
+/* 
+    *  object 1 is equal to object 2 becase it is a reference to the other type
+    *  object 1 is not equal to object 3 becase it is not a reference to the other type
+    * Reference types in javascript are created by the programmer
+*/
 
-// unshift adds something to the beging of the array
-// the unshift operation is a Big O notation of O(n)
-strings.unshift('e')
+/* context 
+    * context vs Scope 
+    * Scope is defined by {}
+*/
 
-// you use splace to add something to the middle of the array
-// the splace operation is a Big O notation of O(n)
+// to create a new value for this object
 
-strings.splice(2, 0, 'alien')
+const object4 = {
+    a: function() {
+        console.log(this);
+    }
+}
 
-console.log(strings)
+// Instantiation is when you crete a copy of the object and reuse the code.  
+/*
+  When you needs to make multiple copies in object.
+*/
 
-// In C++ uses static arrays instead of dynamic arrays.
-//int a[20]; array with 20 elements
-//int b[5] {1, 2, 3, 4};  array with 5 elements
+class Player {
+    constructor(name, type, playerID, id) {
+        this.name = name;
+        this.type = type;
+        this.playerID = playerID
+        this.id = id;
+    }
+    introduce() {
+        console.log(`Hi I am ${this.name}, I'm a ${this.type}`)
+    }
+}
 
-// arrays in python, java, and javascript work like dynamic arrays
-const strings1 = ['a', 'b', 'c', 'd'];
-//apened can be 0(n)
+class Wizard extends Player {
+    constructor(name, type, playerID, id) {
+        super(name, type)
+    }
+    play() {
+        console.log(`WEEEEEE I am ${this.type}`);
+    }
+}
+
+const wizard1 = new Wizard('Shelly', 'Healer');
+const wizard2 = new Wizard('Shawn', 'Magic');
+
+wizard1.play();
+wizard1.introduce();
