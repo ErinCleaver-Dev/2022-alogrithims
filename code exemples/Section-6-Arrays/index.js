@@ -23,3 +23,11 @@ strings.unshift('e')
 strings.splice(2, 0, 'alien')
 
 console.log(strings)
+
+// In C++ uses static arrays instead of dynamic arrays.
+//int a[20]; array with 20 elements
+//int b[5] {1, 2, 3, 4};  array with 5 elements
+
+// arrays in python, java, and javascript work like dynamic arrays
+const strings1 = ['a', 'b', 'c', 'd'];
+//apened can be 0(n)
